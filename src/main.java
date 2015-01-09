@@ -18,8 +18,12 @@ public class main {
 		//excelsheetcolumnnumber s= new excelsheetcolumnnumber();
 		//System.out.println(s.titleToNumber("BA"));
 		
-		majorityelement s = new majorityelement();
-		System.out.println(s.majorityElement(new int[]{1,2,3,2,5,2,6,6,6,6,6,6}));
+		//majorityelement s = new majorityelement();
+		//System.out.println(s.majorityElement(new int[]{1,2,3,2,5,2,6,6,6,6,6,6}));
+		
+		validpalindrome s = new validpalindrome();
+		System.out.println(s.isPalindrome("A man, a plan, a canal: Panama"));
+		
 	}
 
 }
