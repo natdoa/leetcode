@@ -12,8 +12,11 @@ public class main {
 		//romantointeger s=new romantointeger();
 		//System.out.println(s.romanToInt("VI"));
 		
-		implementstrstr s= new implementstrstr();
-		System.out.println(s.strStr("cokuzunbircumle", "bir"));
+		//implementstrstr s= new implementstrstr();
+		//System.out.println(s.strStr("cokuzunbircumle", "bir"));
+		
+		excelsheetcolumnnumber s= new excelsheetcolumnnumber();
+		System.out.println(s.titleToNumber("BA"));
 	}
 
 }
