@@ -21,9 +21,11 @@ public class main {
 		//majorityelement s = new majorityelement();
 		//System.out.println(s.majorityElement(new int[]{1,2,3,2,5,2,6,6,6,6,6,6}));
 		
-		validpalindrome s = new validpalindrome();
-		System.out.println(s.isPalindrome("A man, a plan, a canal: Panama"));
+		//validpalindrome s = new validpalindrome();
+		//System.out.println(s.isPalindrome("A man, a plan, a canal: Panama"));
 		
+		palindromenumber s = new palindromenumber();
+		System.out.println(s.isPalindrome(1234321));
 	}
 
 }
