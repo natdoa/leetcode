@@ -30,8 +30,11 @@ public class main {
 		//addbinary s = new addbinary();
 		//System.out.println(s.addBinary("11", "1"));
 		
-		validparanthesis s = new validparanthesis();
-		System.out.println(s.isValid("()[]{}"));
+		//validparanthesis s = new validparanthesis();
+		//System.out.println(s.isValid("()[]{}"));
+		
+		excelcolumnsheettitle s= new excelcolumnsheettitle();
+		System.out.println(s.convertToTitle(52));
 	}
 
 }
