@@ -33,8 +33,22 @@ public class main {
 		//validparanthesis s = new validparanthesis();
 		//System.out.println(s.isValid("()[]{}"));
 		
-		excelcolumnsheettitle s= new excelcolumnsheettitle();
-		System.out.println(s.convertToTitle(52));
+		//excelcolumnsheettitle s= new excelcolumnsheettitle();
+		//System.out.println(s.convertToTitle(52));
+		
+		removenthnodefromendoflist s = new removenthnodefromendoflist();
+		ListNode a= new ListNode(1);
+		ListNode b= new ListNode(2);
+		a.next=b;
+		ListNode c= new ListNode(3);
+		b.next=c;
+		ListNode d= new ListNode(4);
+		c.next=d;
+		ListNode e= new ListNode(5);
+		d.next=e;
+		
+		s.removeNthFromEnd(a, 2);
+		s.print(a);
 	}
 
 }
