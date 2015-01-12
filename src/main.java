@@ -27,8 +27,11 @@ public class main {
 		//palindromenumber s = new palindromenumber();
 		//System.out.println(s.isPalindrome(1234321));
 		
-		addbinary s = new addbinary();
-		System.out.println(s.addBinary("11", "1"));
+		//addbinary s = new addbinary();
+		//System.out.println(s.addBinary("11", "1"));
+		
+		validparanthesis s = new validparanthesis();
+		System.out.println(s.isValid("()[]{}"));
 	}
 
 }
