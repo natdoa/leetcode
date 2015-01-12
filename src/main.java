@@ -24,8 +24,11 @@ public class main {
 		//validpalindrome s = new validpalindrome();
 		//System.out.println(s.isPalindrome("A man, a plan, a canal: Panama"));
 		
-		palindromenumber s = new palindromenumber();
-		System.out.println(s.isPalindrome(1234321));
+		//palindromenumber s = new palindromenumber();
+		//System.out.println(s.isPalindrome(1234321));
+		
+		addbinary s = new addbinary();
+		System.out.println(s.addBinary("11", "1"));
 	}
 
 }
