@@ -61,7 +61,7 @@ public class main {
 		s.push(7);
 		System.out.println(s.getMin());*/
 		
-		sametree s = new sametree();
+		/*sametree s = new sametree();
 		TreeNode a=new TreeNode(1);
 		TreeNode b=new TreeNode(2);
 		a.left=b;
@@ -76,7 +76,10 @@ public class main {
 		e.right=g;
 		TreeNode h=new TreeNode(4);
 		f.left=h;
-		System.out.println(s.isSameTree(a, e));
+		System.out.println(s.isSameTree(a, e));*/
+		
+		removeelement s = new removeelement();
+		System.out.println(s.removeElement(new int[]{1,1,2}, 1));
 	}
 
 }
