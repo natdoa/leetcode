@@ -60,6 +60,23 @@ public class main {
 		s.push(3);
 		s.push(7);
 		System.out.println(s.getMin());*/
+		
+		sametree s = new sametree();
+		TreeNode a=new TreeNode(1);
+		TreeNode b=new TreeNode(2);
+		a.left=b;
+		TreeNode c=new TreeNode(3);
+		a.right=c;
+		TreeNode d=new TreeNode(4);
+		b.left=d;
+		TreeNode e=new TreeNode(1);
+		TreeNode f=new TreeNode(2);
+		e.left=f;
+		TreeNode g=new TreeNode(3);
+		e.right=g;
+		TreeNode h=new TreeNode(4);
+		f.left=h;
+		System.out.println(s.isSameTree(a, e));
 	}
 
 }
