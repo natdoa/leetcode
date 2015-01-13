@@ -2,7 +2,7 @@
 public class main {
 
 	public static void main(final String[] args) {
-		// TODO Auto-generated method stub
+		
 		//compareversionnumbers s=new compareversionnumbers();
 		//System.out.println(s.compareVersion("0.3", "1.1"));
 		
@@ -36,7 +36,7 @@ public class main {
 		//excelcolumnsheettitle s= new excelcolumnsheettitle();
 		//System.out.println(s.convertToTitle(52));
 		
-		removenthnodefromendoflist s = new removenthnodefromendoflist();
+		/*removenthnodefromendoflist s = new removenthnodefromendoflist();
 		ListNode a= new ListNode(1);
 		ListNode b= new ListNode(2);
 		a.next=b;
@@ -46,9 +46,14 @@ public class main {
 		c.next=d;
 		ListNode e= new ListNode(5);
 		d.next=e;
-		
 		s.removeNthFromEnd(a, 2);
-		s.print(a);
+		s.print(a);*/
+		
+		/*mergesortedarray s = new mergesortedarray();
+		int[] A={1,3,5,7};
+		int[] B={2,4,6,8};
+		s.merge(A, A.length, B, B.length);
+		s.print(A);*/
 	}
 
 }
