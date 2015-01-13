@@ -54,6 +54,12 @@ public class main {
 		int[] B={2,4,6,8};
 		s.merge(A, A.length, B, B.length);
 		s.print(A);*/
+		
+		/*minstack s = new minstack();
+		s.push(5);
+		s.push(3);
+		s.push(7);
+		System.out.println(s.getMin());*/
 	}
 
 }
