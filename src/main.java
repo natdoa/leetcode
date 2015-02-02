@@ -104,8 +104,11 @@ public class main {
 		b4.next=b5;
 		System.out.println(s.getIntersectionNode(a1, b1).val);*/
 		
-		stringtointeger s= new stringtointeger();
-		System.out.println(s.atoi("  do  ga  "));
+		/*stringtointeger s= new stringtointeger();
+		System.out.println(s.atoi("  do  ga  "));*/
+		
+		pascalstriangle s= new pascalstriangle();
+		System.out.println(s.generate(5));
 	}
 
 }
