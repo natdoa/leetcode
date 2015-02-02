@@ -78,8 +78,32 @@ public class main {
 		f.left=h;
 		System.out.println(s.isSameTree(a, e));*/
 		
-		removeelement s = new removeelement();
-		System.out.println(s.removeElement(new int[]{1,1,2}, 1));
+		/*removeelement s = new removeelement();
+		System.out.println(s.removeElement(new int[]{1,1,2}, 1));*/
+		
+		intersectionoftwolinkedlists s = new intersectionoftwolinkedlists();
+		ListNode a1=new ListNode(1);
+		ListNode a2=new ListNode(2);
+		a1.next=a2;
+		ListNode a3=new ListNode(3);
+		a2.next=a3;
+		
+		ListNode b1=new ListNode(4);
+		ListNode b2=new ListNode(5);
+		b1.next=b2;
+		ListNode b3=new ListNode(6);
+		b2.next=b3;
+		
+		ListNode a4=new ListNode(7);
+		a3.next=a4;
+		ListNode a5=new ListNode(8);
+		a4.next=a5;
+		ListNode b4=new ListNode(7);
+		b3.next=b4;
+		ListNode b5=new ListNode(8);
+		b4.next=b5;
+		
+		System.out.println(s.getIntersectionNode(a1, b1).val);
 	}
 
 }
