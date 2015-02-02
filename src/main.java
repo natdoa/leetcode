@@ -81,7 +81,7 @@ public class main {
 		/*removeelement s = new removeelement();
 		System.out.println(s.removeElement(new int[]{1,1,2}, 1));*/
 		
-		intersectionoftwolinkedlists s = new intersectionoftwolinkedlists();
+		/*intersectionoftwolinkedlists s = new intersectionoftwolinkedlists();
 		ListNode a1=new ListNode(1);
 		ListNode a2=new ListNode(2);
 		a1.next=a2;
@@ -102,8 +102,10 @@ public class main {
 		b3.next=b4;
 		ListNode b5=new ListNode(8);
 		b4.next=b5;
+		System.out.println(s.getIntersectionNode(a1, b1).val);*/
 		
-		System.out.println(s.getIntersectionNode(a1, b1).val);
+		stringtointeger s= new stringtointeger();
+		System.out.println(s.atoi("  do  ga  "));
 	}
 
 }
