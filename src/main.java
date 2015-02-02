@@ -110,7 +110,11 @@ public class main {
 		/*pascalstriangle s= new pascalstriangle();
 		System.out.println(s.generate(5));*/
 		
+		/*mergetwosortedlists s= new mergetwosortedlists();
+		System.out.println(s.mergeTwoLists(l1, l2));*/
 		
+		lengthoflastword s= new lengthoflastword();
+		System.out.println(s.lengthOfLastWord("hello world"));
 	}
 
 }
