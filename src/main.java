@@ -107,8 +107,10 @@ public class main {
 		/*stringtointeger s= new stringtointeger();
 		System.out.println(s.atoi("  do  ga  "));*/
 		
-		pascalstriangle s= new pascalstriangle();
-		System.out.println(s.generate(5));
+		/*pascalstriangle s= new pascalstriangle();
+		System.out.println(s.generate(5));*/
+		
+		
 	}
 
 }
