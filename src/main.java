@@ -113,8 +113,11 @@ public class main {
 		/*mergetwosortedlists s= new mergetwosortedlists();
 		System.out.println(s.mergeTwoLists(l1, l2));*/
 		
-		lengthoflastword s= new lengthoflastword();
-		System.out.println(s.lengthOfLastWord("hello world"));
+		/*lengthoflastword s= new lengthoflastword();
+		System.out.println(s.lengthOfLastWord("hello world"));*/
+		
+		singlenumber s =new singlenumber();
+		System.out.println(s.singleNumber(new int[] {1}));
 	}
 
 }
