@@ -116,8 +116,19 @@ public class main {
 		/*lengthoflastword s= new lengthoflastword();
 		System.out.println(s.lengthOfLastWord("hello world"));*/
 		
-		singlenumber s =new singlenumber();
-		System.out.println(s.singleNumber(new int[] {1}));
+		/*singlenumber s =new singlenumber();
+		System.out.println(s.singleNumber(new int[] {1}));*/
+		
+		linkedlistcycle s= new linkedlistcycle();
+		ListNode a1=new ListNode(1);
+		ListNode a2=new ListNode(2);
+		a1.next=a2;
+		ListNode a3=new ListNode(3);
+		a2.next=a3;
+		ListNode a4=new ListNode(4);
+		a3.next=a4;
+		a4.next=a1;
+		System.out.println(s.hasCycle(a1));
 	}
 
 }
