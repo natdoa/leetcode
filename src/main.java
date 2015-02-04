@@ -119,7 +119,7 @@ public class main {
 		/*singlenumber s =new singlenumber();
 		System.out.println(s.singleNumber(new int[] {1}));*/
 		
-		linkedlistcycle s= new linkedlistcycle();
+		/*linkedlistcycle s= new linkedlistcycle();
 		ListNode a1=new ListNode(1);
 		ListNode a2=new ListNode(2);
 		a1.next=a2;
@@ -128,7 +128,10 @@ public class main {
 		ListNode a4=new ListNode(4);
 		a3.next=a4;
 		a4.next=a1;
-		System.out.println(s.hasCycle(a1));
+		System.out.println(s.hasCycle(a1));*/
+		
+		removeduplicatesfromsortedarray s= new removeduplicatesfromsortedarray();
+		System.out.println(s.removeDuplicates(new int[] {1,1,2}));
 	}
 
 }
