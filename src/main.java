@@ -130,8 +130,22 @@ public class main {
 		a4.next=a1;
 		System.out.println(s.hasCycle(a1));*/
 		
-		removeduplicatesfromsortedarray s= new removeduplicatesfromsortedarray();
-		System.out.println(s.removeDuplicates(new int[] {1,1,2}));
+		/*removeduplicatesfromsortedarray s= new removeduplicatesfromsortedarray();
+		System.out.println(s.removeDuplicates(new int[] {1,1,2}));*/
+		
+		removeduplicatesfromsortedlist s = new removeduplicatesfromsortedlist();
+		ListNode a1=new ListNode(1);
+		ListNode a2=new ListNode(1);
+		a1.next=a2;
+		ListNode a3=new ListNode(2);
+		a2.next=a3;
+		ListNode a4=new ListNode(3);
+		a3.next=a4;
+		ListNode a5=new ListNode(3);
+		a4.next=a5;
+		
+		System.out.println(s.deleteDuplicates(a1));
+		s.printListNode(a1);
 	}
 
 }
